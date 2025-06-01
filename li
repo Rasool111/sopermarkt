@@ -1,0 +1,75 @@
+    def total(self):
+        self.Rice =self.q1.get()*5000
+        self.Sugar =self.q2.get()*4000
+        self.Flour=self.q3.get()*13000
+        self.Lentils=self.q4.get()*500
+        self.Beans =self.q5.get()*600
+        self.Pasta=self.q6.get()*300
+        self.Vermicelli=self.q7.get()*250
+        self.Oats=self.q8.get()*1000
+        self.Salt=self.q9.get()*200
+        self.Cocoa =self.q10.get()*1000
+        self.Total =float(
+            self.Rice+
+            self.Sugar+
+            self.Flour+
+            self.Lentils+
+            self.Beans+
+            self.Pasta+
+            self.Vermicelli+
+            self.Oats+
+            self.Salt+
+            self.Cocoa
+        )
+        self.Laundry_Detergent =self.qq1.get()*1000
+        self.Dishwashing_Liquid =self.qq2.get()*1500
+        self.Floor_Disinfectant=self.qq3.get()*1300
+        self.Air_freshener=self.qq4.get()*700
+        self.TrashBags =self.qq5.get()*400
+        self.CleaningSponges=self.qq6.get()*300
+        self.CarpetCleaningPowder=self.qq7.get()*2000
+        self.PaperTowels=self.qq8.get()*1000
+        self.WetCleaning=self.qq9.get()*1200
+        self.GlassCleaner =self.qq10.get()*1000
+        self.Total1 =float(
+            self.Laundry_Detergent+
+            self.Dishwashing_Liquid+
+            self.Floor_Disinfectant+
+            self.Air_freshener+
+            self.TrashBags+
+            self.CleaningSponges+
+            self.CarpetCleaningPowder+
+            self.PaperTowels+
+            self.WetCleaning+
+            self.GlassCleaner
+        )
+        self.PlainYogurt =self.qqq1.get()*350
+        self.Buttermilk =self.qqq2.get()*800
+        self.WhiteCheese=self.qqq3.get()*500
+        self.CheddarCheese=self.qqq4.get()*1200
+        self.TriangleCheese =self.qqq5.get()*1100
+        self.Cream=self.qqq6.get()*300
+        self.MiPowder=self.qq7.get()*2000
+        self.CondensedMilk=self.qqq8.get()*1000
+        self.Butter=self.qqq9.get()*1200
+        self.Milk =self.qqq10.get()*300
+        self.Total2 =float(
+            self.PlainYogurt+
+            self.Buttermilk+
+            self.WhiteCheese+
+            self.CheddarCheese+
+            self.TriangleCheese+
+            self.Cream+
+            self.CarpetCleaningPowder+
+            self.CondensedMilk+
+            self.Butter+
+            self.Milk
+        )
+        self.DryFoodItems.set(str(self.Total)+' Riyal')
+        self.Cleaning.set(str(self.Total1)+' Riyal')
+        self.Beverages.set(str(self.Total2)+' Riyal')
+        self.all=float(
+            self.Total+
+            self.Total1+
+            self.Total2
+        )
