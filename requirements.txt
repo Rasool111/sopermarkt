@@ -1,0 +1,11 @@
+# Requirements for sopermarkt
+# Desktop Supermarket Billing & POS Application
+
+# Python Version: >= 3.8
+# GUI Framework: Tkinter (included in standard Windows Python installer)
+# Standard Library modules used:
+# - tkinter
+# - os
+# - sys
+# - random
+# - webbrowser
